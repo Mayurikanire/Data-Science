@@ -1,0 +1,8 @@
+s = input('enter the string')
+term = input('what would you like to remove')
+
+result = ''
+for i in s:
+    if i !=term:
+      result = result + i 
+print(result)
