@@ -1,1 +1,28 @@
+# What are Lists
+#  List is a data type whwre you can store multiple items under 1 name.More tecnically, lists act like dynamic arrays which means you can add more items on the fly.
+# L= [20,'Jessa',35.75,[30,60,90]]
 
+#Array Vs Lists
+# Memory
+# speed of execution
+# fixedvs dynamic size
+# convenience
+
+ L = [1,2,3]
+
+print(id(L))
+print(id(L[0]))
+print(id(L[1]))
+print(id(L[2]))
+print(id(1))
+print(id(2))
+print(id(3))
+
+output :
+#3057963131072
+#140731754226600
+#140731754226632
+#140731754226664
+#140731754226600
+#140731754226632
+#140731754226664
