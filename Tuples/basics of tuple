@@ -1,1 +1,25 @@
-
+# TUPLES :
+#     A tuple in python is similar to a list.The differance between the two is that we cannot
+#     change the elements2of a tuple once it is assigned whereas we can change elements of a list.
+    
+# CHARASTERISTICS :
+#     Ordered
+#     Unchangeble
+#     Allows duplicate
+    
+# Creating Tuple :
+t1 =()
+print(t1)
+# single item tuple    
+t2 = ('hello',)
+print(t2)
+# homogeneous
+t3 =(1,2,3,4)
+print(t3)
+# hetero
+t4 =(1,2.5,True,[1,2,3])
+print(t4)
+# tuple
+t5 =(1,2,3,(4,5))
+# type conversion
+t6 = tuple('hello')
