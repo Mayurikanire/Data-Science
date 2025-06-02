@@ -23,3 +23,12 @@ print(t4)
 t5 =(1,2,3,(4,5))
 # type conversion
 t6 = tuple('hello')
+
+
+#ACCESSING ITEMS
+t3 =(1,2,3,4)
+print(t3) #indexing
+print(t3[0])
+print(t3[-1])
+
+print(t3[0:4:2])#slicing
