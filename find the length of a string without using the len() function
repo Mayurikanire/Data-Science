@@ -1,5 +1,0 @@
-s = input('enter the string')
-counter = 0
-for i in s:
-    counter+=1
-print('length of string is',counter) 
