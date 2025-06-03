@@ -1,0 +1,3 @@
+ed
+    # Unchangeble
+    # Allows duplic
